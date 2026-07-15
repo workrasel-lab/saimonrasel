@@ -13,7 +13,7 @@ The platform features a modern, clean, fully responsive layout with an optional 
 
 | 💻 Desktop View | 📱 Mobile View |
 | :---: | :---: |
-| <img src="/Desktop Resume View.png" width="100%" alt="Desktop Interface Preview"/> | <img src="/Mobile Resume View.png" width="90%" alt="Mobile Interface Preview"/> |
+| <img src="/Desktop Resume View.png" width="100%" alt="Desktop Interface Preview"/> | <img src="/Mobile Resume View.png" width="100%" alt="Mobile Interface Preview"/> |
 
 ---
 

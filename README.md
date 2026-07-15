@@ -13,7 +13,7 @@ The platform features a modern, clean, fully responsive layout with an optional 
 
 | 💻 Desktop View | 📱 Mobile View |
 | :---: | :---: |
-| <img src="YOUR_DESKTOP_IMAGE_URL" width="100%" alt="Desktop Interface Preview"/> | <img src="YOUR_MOBILE_IMAGE_URL" width="65%" alt="Mobile Interface Preview"/> |
+| <img src="/Desktop Resume View.png" width="100%" alt="Desktop Interface Preview"/> | <img src="/Mobile Resume View.png" width="90%" alt="Mobile Interface Preview"/> |
 
 ---
 
@@ -49,3 +49,33 @@ To run this project locally for editing or testing, follow these structured depl
 ```bash
 git clone [https://github.com/workrasel-lab/saimonrasel.git](https://github.com/workrasel-lab/saimonrasel.git)
 cd saimonrasel
+```
+
+### 2. Verify Repository Structure
+Ensure your assets match the deployment directory tree layout:
+```Bash
+├── .github/workflows/   # CI/CD deployment workflows
+├── assets/              # Developer avatar, profile icons, download targets
+├── error-404-assets/    # Specific design elements for standard error modules
+├── index.html           # Main structural entry hub
+└── index.php            # Optional server deployment script
+```
+### 3. Launch a local web server
+Run a simple server script from your terminal to preview changes in real-time:
+
+Using Python 3:
+```Bash
+python -m http.server 8000
+```
+Using Node.js (Live Server):
+```Bash
+npx live-server
+```
+Open your browser and navigate directly to http://localhost:8000 or the indicated port.
+
+
+👥 Contributors & Main Credits
+Lead Architect & Maintainer: @Saimon Rasel Research & Workspaces.
+
+
+Built with ❤️ for optimal recruitment outreach.
